@@ -20,3 +20,4 @@ const Paper: Components<Omit<Theme, 'components'>>['MuiPaper'] = {
 };
 
 export default Paper;
+ 

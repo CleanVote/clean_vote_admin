@@ -92,3 +92,4 @@ export const NFTData: NFTProps[] = [
     totalMembers: 24,
   },
 ];
+ 

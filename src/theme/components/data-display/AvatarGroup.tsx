@@ -19,3 +19,4 @@ const AvatarGroup: Components<Omit<Theme, 'components'>>['MuiAvatarGroup'] = {
 };
 
 export default AvatarGroup;
+ 

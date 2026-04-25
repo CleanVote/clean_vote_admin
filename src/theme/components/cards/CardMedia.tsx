@@ -11,3 +11,4 @@ const CardMedia: Components<Omit<Theme, 'components'>>['MuiCardMedia'] = {
 };
 
 export default CardMedia;
+ 

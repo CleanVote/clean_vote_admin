@@ -68,3 +68,4 @@ const HistoryCard = ({ data }: HistoryCardProps) => {
 };
 
 export default HistoryCard;
+ 

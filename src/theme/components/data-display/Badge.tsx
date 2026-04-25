@@ -12,3 +12,4 @@ const Badge: Components<Omit<Theme, 'components'>>['MuiBadge'] = {
 };
 
 export default Badge;
+ 

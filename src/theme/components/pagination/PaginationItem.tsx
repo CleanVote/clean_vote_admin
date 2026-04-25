@@ -16,3 +16,4 @@ const PaginationItem: Components<Omit<Theme, 'components'>>['MuiPaginationItem']
 };
 
 export default PaginationItem;
+ 

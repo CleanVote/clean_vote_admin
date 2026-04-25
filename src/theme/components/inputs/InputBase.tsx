@@ -43,3 +43,4 @@ const InputBase: Components<Omit<Theme, 'components'>>['MuiInputBase'] = {
 };
 
 export default InputBase;
+ 

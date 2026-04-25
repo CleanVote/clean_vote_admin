@@ -27,3 +27,4 @@ const MainLayout = ({ children }: PropsWithChildren) => {
 };
 
 export default MainLayout;
+ 

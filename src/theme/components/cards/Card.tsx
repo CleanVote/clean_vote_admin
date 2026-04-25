@@ -10,3 +10,4 @@ const Card: Components<Omit<Theme, 'components'>>['MuiCard'] = {
 };
 
 export default Card;
+ 

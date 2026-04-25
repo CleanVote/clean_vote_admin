@@ -14,3 +14,4 @@ const ListItemText: Components<Omit<Theme, 'components'>>['MuiListItemText'] = {
 };
 
 export default ListItemText;
+ 

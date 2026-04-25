@@ -77,3 +77,4 @@ export const routes = [
 const router = createBrowserRouter(routes, { basename: '/horizon' });
 
 export default router;
+ 

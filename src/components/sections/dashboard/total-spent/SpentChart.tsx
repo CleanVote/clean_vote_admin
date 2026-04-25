@@ -181,3 +181,4 @@ const SpentChart = ({ data, ...rest }: SpentChartProps) => {
 };
 
 export default SpentChart;
+ 

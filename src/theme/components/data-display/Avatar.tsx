@@ -11,3 +11,4 @@ const Avatar: Components<Omit<Theme, 'components'>>['MuiAvatar'] = {
 };
 
 export default Avatar;
+ 

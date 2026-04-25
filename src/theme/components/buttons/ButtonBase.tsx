@@ -8,3 +8,4 @@ const ButtonBase: Components<Omit<Theme, 'components'>>['MuiButtonBase'] = {
 };
 
 export default ButtonBase;
+ 

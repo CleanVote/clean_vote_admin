@@ -118,3 +118,4 @@ export const rows: RowsProps[] = [
     balance: '1350$',
   },
 ];
+ 

@@ -23,3 +23,4 @@ export default defineConfig({
   },
   base: '/horizon',
 });
+ 

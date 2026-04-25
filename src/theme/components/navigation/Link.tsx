@@ -20,3 +20,4 @@ const Link: Components<Omit<Theme, 'components'>>['MuiLink'] = {
 };
 
 export default Link;
+ 

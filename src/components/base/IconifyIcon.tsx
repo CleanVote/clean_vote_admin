@@ -10,3 +10,4 @@ const IconifyIcon = ({ icon, ...rest }: IconifyProps) => {
 };
 
 export default IconifyIcon;
+ 

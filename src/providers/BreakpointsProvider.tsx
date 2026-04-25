@@ -60,3 +60,4 @@ const BreakpointsProvider = ({ children }: PropsWithChildren) => {
 export const useBreakpoints = () => useContext(BreakpointContext);
 
 export default BreakpointsProvider;
+ 

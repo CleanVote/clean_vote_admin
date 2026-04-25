@@ -186,3 +186,4 @@ const DataTable = ({ searchText }: TaskOverviewTableProps) => {
 };
 
 export default DataTable;
+ 

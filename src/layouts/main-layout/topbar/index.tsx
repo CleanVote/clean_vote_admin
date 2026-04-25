@@ -92,3 +92,4 @@ const Topbar = ({ isClosing, mobileOpen, setMobileOpen }: TopbarProps) => {
 };
 
 export default Topbar;
+ 

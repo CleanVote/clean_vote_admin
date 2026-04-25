@@ -34,3 +34,4 @@ const ReactSwiper = forwardRef<null | SwiperProps, ReactSwiperProps>(
 );
 
 export default ReactSwiper;
+ 

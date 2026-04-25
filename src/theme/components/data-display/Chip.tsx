@@ -50,3 +50,4 @@ const Chip: Components<Omit<Theme, 'components'>>['MuiChip'] = {
 };
 
 export default Chip;
+ 

@@ -27,3 +27,4 @@ const Checkbox: Components<Omit<Theme, 'components'>>['MuiCheckbox'] = {
 };
 
 export default Checkbox;
+ 

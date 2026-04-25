@@ -46,3 +46,4 @@ export const yellow = {
   300: '#FFB547',
   500: '#FFCE20',
 };
+ 

@@ -16,3 +16,4 @@ const MonthCalendar: Components<Omit<Theme, 'components'>>['MuiMonthCalendar'] =
 };
 
 export default MonthCalendar;
+ 

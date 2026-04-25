@@ -18,3 +18,4 @@ const InputLabel: Components<Omit<Theme, 'components'>>['MuiInputLabel'] = {
 };
 
 export default InputLabel;
+ 

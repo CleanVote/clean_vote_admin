@@ -17,3 +17,4 @@ const FormControlLabel: Components<Omit<Theme, 'components'>>['MuiFormControlLab
 };
 
 export default FormControlLabel;
+ 

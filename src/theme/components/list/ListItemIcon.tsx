@@ -13,3 +13,4 @@ const ListItemIcon: Components<Omit<Theme, 'components'>>['MuiListItemIcon'] = {
 };
 
 export default ListItemIcon;
+ 

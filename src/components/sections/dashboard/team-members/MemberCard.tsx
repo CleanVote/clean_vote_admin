@@ -55,3 +55,4 @@ const MemberCard = ({ data }: MemberCardProps) => {
 };
 
 export default MemberCard;
+ 
