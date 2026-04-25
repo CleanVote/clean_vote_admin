@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+openbudget_uz_raqamlar.json
+openbudget.json
