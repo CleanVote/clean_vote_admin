@@ -2,8 +2,10 @@ import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import CountryMenu from './CountryMenu';
+import { useTranslation } from 'react-i18next';
 
 const Balance = () => {
+  const { t } = useTranslation();
   return (
     <Stack
       component={Paper}
@@ -14,7 +16,7 @@ const Balance = () => {
     >
       <div>
         <Typography variant="body2" color="text.disabled">
-          Your Balance
+          {t('yourBalance')}
         </Typography>
         <Typography mt={0.25} variant="h3">
           $1,000

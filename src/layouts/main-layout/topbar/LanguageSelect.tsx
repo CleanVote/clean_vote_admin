@@ -6,6 +6,7 @@ import IconButton from '@mui/material/IconButton';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import IconifyIcon from 'components/base/IconifyIcon';
+import { useTranslation } from 'react-i18next';
 
 interface Language {
   id: number;
@@ -17,38 +18,29 @@ interface Language {
 const languages: Language[] = [
   {
     id: 1,
-    code: 'eng',
-    lang: 'English',
-    flag: 'twemoji:flag-united-kingdom',
+    code: 'uz',
+    lang: "O'zbekcha",
+    flag: 'twemoji:flag-uzbekistan',
   },
   {
     id: 2,
-    code: 'ban',
-    lang: 'বাংলা',
-    flag: 'twemoji:flag-bangladesh',
+    code: 'ru',
+    lang: 'Русский',
+    flag: 'twemoji:flag-russia',
   },
   {
     id: 3,
-    code: 'zh',
-    lang: '中文',
-    flag: 'twemoji:flag-china',
-  },
-  {
-    id: 4,
-    code: 'tr',
-    lang: 'Türkçe',
-    flag: 'twemoji:flag-turkey',
-  },
-  {
-    id: 5,
-    code: 'nld',
-    lang: 'Dutch',
-    flag: 'twemoji:flag-netherlands',
+    code: 'en',
+    lang: 'English',
+    flag: 'twemoji:flag-united-kingdom',
   },
 ];
 
 const LanguageSelect = () => {
-  const [language, setLanguage] = useState(languages[0]);
+  const { i18n } = useTranslation();
+  const [language, setLanguage] = useState(
+    languages.find((l) => l.code === i18n.language) || languages[0],
+  );
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
 
@@ -61,6 +53,7 @@ const LanguageSelect = () => {
   };
 
   const handleLanguageItemClick = (langItem: Language) => {
+    i18n.changeLanguage(langItem.code);
     setLanguage(langItem);
     handleFlagMenuClose();
   };

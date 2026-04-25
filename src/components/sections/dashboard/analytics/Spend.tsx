@@ -2,8 +2,11 @@ import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import IconifyIcon from 'components/base/IconifyIcon';
+import { useTranslation } from 'react-i18next';
+import budgetData from '../../../../../openbudget_uz_raqamlar.json';
 
 const Spend = () => {
+  const { t } = useTranslation();
   return (
     <Stack component={Paper} p={2.5} alignItems="center" spacing={2.25} height={100}>
       <Stack
@@ -18,10 +21,15 @@ const Spend = () => {
       </Stack>
       <div>
         <Typography variant="body2" color="text.disabled" noWrap>
-          Spend this month
+          {t('spendThisMonth')}
         </Typography>
         <Typography mt={0.25} variant="h3">
-          $642.39
+          {
+            budgetData.respublika_budjeti.yillik_korsatkichlar.find(
+              (y: { yil: number; yakuniy_xarajat_trln?: number }) => y.yil === 2025,
+            )?.yakuniy_xarajat_trln
+          }{' '}
+          Trln
         </Typography>
       </div>
     </Stack>

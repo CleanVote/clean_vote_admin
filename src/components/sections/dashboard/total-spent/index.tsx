@@ -7,8 +7,11 @@ import ButtonBase from '@mui/material/ButtonBase';
 import IconifyIcon from 'components/base/IconifyIcon';
 import DateSelect from './DateSelect';
 import SpentChart from './SpentChart';
+import { useTranslation } from 'react-i18next';
+import budgetData from '../../../../../openbudget_uz_raqamlar.json';
 
 const TotalSpent = () => {
+  const { t } = useTranslation();
   return (
     <Box component={Paper} height={{ xs: 450, sm: 350 }}>
       <Stack justifyContent="space-between">
@@ -30,11 +33,16 @@ const TotalSpent = () => {
       <Stack direction={{ xs: 'column', sm: 'row' }} mt={1.75}>
         <Box minWidth={150}>
           <Typography mt={0.35} variant="h2" color="text.primary">
-            $37.5K
+            {
+              budgetData.respublika_budjeti.yillik_korsatkichlar.find(
+                (y: { yil: number; yakuniy_xarajat_trln?: number }) => y.yil === 2025,
+              )?.yakuniy_xarajat_trln
+            }{' '}
+            Trln
           </Typography>
           <Stack spacing={1}>
             <Typography variant="body2" color="text.disabled" fontWeight={500}>
-              Total Spent
+              {t('totalSpent')}
             </Typography>
 
             <Stack alignItems="center" spacing={0.25}>
@@ -51,7 +59,7 @@ const TotalSpent = () => {
           <Stack mt={2} alignItems="center" spacing={0.5}>
             <IconifyIcon icon="ic:round-check-circle" color="success.main" fontSize="h6.fontSize" />
             <Typography variant="body1" color="success.main" fontWeight={700}>
-              On track
+              {t('onTrack')}
             </Typography>
           </Stack>
         </Box>

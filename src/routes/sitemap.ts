@@ -1,23 +1,17 @@
 import paths, { rootPaths } from './paths';
 
 export interface SubMenuItem {
-  subheader: string;
-  pathName: string;
-  path: string;
-  icon?: string;
-  active?: boolean;
-  items?: SubMenuItem[];
-}
-
-export interface MenuItem {
-  id: number | string;
+  id?: number;
   subheader: string;
   path?: string;
+  pathName?: string;
   icon?: string;
   avatar?: string;
   active?: boolean;
   items?: SubMenuItem[];
 }
+
+export type MenuItem = SubMenuItem;
 
 const sitemap: MenuItem[] = [
   {
@@ -29,41 +23,21 @@ const sitemap: MenuItem[] = [
   },
   {
     id: 2,
-    subheader: 'NFT Marketplace',
-    path: '#!',
-    icon: 'ic:outline-shopping-cart',
+    subheader: 'seasons',
+    path: paths.seasons,
+    icon: 'ic:outline-calendar-month',
   },
   {
     id: 3,
-    subheader: 'Tables',
-    path: '#!',
-    icon: 'ic:round-bar-chart',
+    subheader: 'categories',
+    path: paths.categories,
+    icon: 'ic:outline-category',
   },
   {
     id: 4,
-    subheader: 'Kanban',
-    path: '#!',
-    icon: 'ic:round-dashboard',
-  },
-  {
-    id: 5,
-    subheader: 'Profile',
-    path: '#!',
-    icon: 'ic:baseline-person',
-  },
-  {
-    id: 6,
-    subheader: 'Sign In',
-    path: paths.signin,
-    icon: 'ic:round-lock',
-    active: true,
-  },
-  {
-    id: 7,
-    subheader: 'Sign Up',
-    path: paths.signup,
-    icon: 'ic:baseline-person-add-alt-1',
-    active: true,
+    subheader: 'organizations',
+    path: paths.organizations,
+    icon: 'ic:outline-account-balance',
   },
 ];
 

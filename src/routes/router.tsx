@@ -6,6 +6,9 @@ const App = lazy(() => import('App'));
 const MainLayout = lazy(() => import('layouts/main-layout'));
 const AuthLayout = lazy(() => import('layouts/auth-layout'));
 const Dashboard = lazy(() => import('pages/dashboard/Dashboard'));
+const Seasons = lazy(() => import('pages/seasons/Seasons'));
+const Categories = lazy(() => import('pages/categories/Categories'));
+const Organizations = lazy(() => import('pages/organizations/Organizations'));
 const SignIn = lazy(() => import('pages/authentication/SignIn'));
 const SignUp = lazy(() => import('pages/authentication/SignUp'));
 const Page404 = lazy(() => import('pages/errors/Page404'));
@@ -34,6 +37,18 @@ export const routes = [
           {
             index: true,
             element: <Dashboard />,
+          },
+          {
+            path: paths.seasons,
+            element: <Seasons />,
+          },
+          {
+            path: paths.categories,
+            element: <Categories />,
+          },
+          {
+            path: paths.organizations,
+            element: <Organizations />,
           },
         ],
       },

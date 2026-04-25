@@ -2,8 +2,11 @@ import Stack from '@mui/material/Stack';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import IconifyIcon from 'components/base/IconifyIcon';
+import { useTranslation } from 'react-i18next';
+import budgetData from '../../../../../openbudget_uz_raqamlar.json';
 
 const Tasks = () => {
+  const { t } = useTranslation();
   return (
     <Stack component={Paper} p={2.5} alignItems="center" spacing={2.25} height={100}>
       <Stack
@@ -20,10 +23,10 @@ const Tasks = () => {
       </Stack>
       <div>
         <Typography variant="body2" color="text.disabled" noWrap>
-          New Tasks
+          {t('newTasks')}
         </Typography>
         <Typography mt={0.25} variant="h3">
-          154
+          {budgetData.mening_maktabim_loyihasi_2024_2025.yuborilgan_loyihalar}
         </Typography>
       </div>
     </Stack>

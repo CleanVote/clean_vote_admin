@@ -3,19 +3,22 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import IconifyIcon from 'components/base/IconifyIcon';
 import DailyTrafficChart from './DailyTrafficChart';
+import { useTranslation } from 'react-i18next';
+import budgetData from '../../../../../openbudget_uz_raqamlar.json';
 
 const DailyTraffic = () => {
+  const { t } = useTranslation();
   return (
     <Paper sx={{ height: 350 }}>
       <Stack alignItems="flex-start" justifyContent="space-between">
         <div>
           <Typography variant="body2" color="text.disabled" fontWeight={500}>
-            Daily Traffic
+            {t('dailyTraffic')}
           </Typography>
           <Typography mt={0.5} variant="h2">
-            2.579{' '}
+            {budgetData.mening_maktabim_loyihasi_2024_2025.ovoz_bergan_oquvchilar_ming} Ming{' '}
             <Typography component="span" variant="body2" color="text.disabled" fontWeight={500}>
-              Visitors
+              {t('visitors')}
             </Typography>
           </Typography>
         </div>

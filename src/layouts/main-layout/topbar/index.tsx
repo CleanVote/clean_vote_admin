@@ -7,8 +7,8 @@ import ButtonBase from '@mui/material/ButtonBase';
 import IconButton from '@mui/material/IconButton';
 import InputAdornment from '@mui/material/InputAdornment';
 import IconifyIcon from 'components/base/IconifyIcon';
-import HorizonLogo from 'assets/images/logo-main.png';
-import Image from 'components/base/Image';
+import Typography from '@mui/material/Typography';
+import { useTranslation } from 'react-i18next';
 import ProfileMenu from './ProfileMenu';
 import LanguageSelect from './LanguageSelect';
 
@@ -19,6 +19,7 @@ interface TopbarProps {
 }
 
 const Topbar = ({ isClosing, mobileOpen, setMobileOpen }: TopbarProps) => {
+  const { t } = useTranslation();
   const handleDrawerToggle = () => {
     if (!isClosing) {
       setMobileOpen(!mobileOpen);
@@ -40,7 +41,9 @@ const Topbar = ({ isClosing, mobileOpen, setMobileOpen }: TopbarProps) => {
           disableRipple
           sx={{ lineHeight: 0, display: { xs: 'none', sm: 'block', lg: 'none' } }}
         >
-          <Image src={HorizonLogo} alt="logo" height={44} width={44} />
+          <Typography variant="h5" sx={{ fontWeight: 700, whiteSpace: 'nowrap' }}>
+            CLEAN VOTE
+          </Typography>
         </ButtonBase>
 
         <Toolbar sx={{ display: { xm: 'block', lg: 'none' } }}>
@@ -63,7 +66,7 @@ const Topbar = ({ isClosing, mobileOpen, setMobileOpen }: TopbarProps) => {
 
         <TextField
           variant="filled"
-          placeholder="Search"
+          placeholder={t('search')}
           sx={{ width: 320, display: { xs: 'none', md: 'flex' } }}
           InputProps={{
             endAdornment: (

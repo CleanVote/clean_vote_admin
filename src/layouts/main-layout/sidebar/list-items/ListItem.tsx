@@ -1,3 +1,4 @@
+import { useLocation } from 'react-router-dom';
 import { MenuItem } from 'routes/sitemap';
 import Link from '@mui/material/Link';
 import Box from '@mui/material/Box';
@@ -6,8 +7,13 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import IconifyIcon from 'components/base/IconifyIcon';
+import { useTranslation } from 'react-i18next';
 
-const ListItem = ({ subheader, icon, path, active }: MenuItem) => {
+const ListItem = ({ subheader, icon, path }: MenuItem) => {
+  const { t } = useTranslation();
+  const location = useLocation();
+  const active = path ? location.pathname === path : false;
+
   return (
     <Stack mb={1} component={Link} href={path} alignItems="center" justifyContent="space-between">
       <ListItemButton>
@@ -23,7 +29,7 @@ const ListItem = ({ subheader, icon, path, active }: MenuItem) => {
           )}
         </ListItemIcon>
         <ListItemText
-          primary={subheader}
+          primary={t(subheader.toLowerCase())}
           sx={{
             '& .MuiListItemText-primary': {
               color: active ? 'primary.main' : null,
@@ -37,7 +43,7 @@ const ListItem = ({ subheader, icon, path, active }: MenuItem) => {
         height={36}
         width={4}
         borderRadius={10}
-        bgcolor={active && path === '/' ? 'primary.main' : 'transparent'}
+        bgcolor={active ? 'primary.main' : 'transparent'}
       />
     </Stack>
   );

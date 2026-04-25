@@ -5,6 +5,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import BreakpointsProvider from 'providers/BreakpointsProvider';
 import router from 'routes/router';
 import { theme } from 'theme/theme';
+import './i18n';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

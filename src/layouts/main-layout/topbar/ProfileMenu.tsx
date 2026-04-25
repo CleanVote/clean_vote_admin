@@ -9,7 +9,6 @@ import Typography from '@mui/material/Typography';
 import ButtonBase from '@mui/material/ButtonBase';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import IconifyIcon from 'components/base/IconifyIcon';
-import ProfileImage from 'assets/images/avatars/avatar1.png';
 
 interface MenuItems {
   id: number;
@@ -72,13 +71,15 @@ const ProfileMenu = () => {
         disableRipple
       >
         <Avatar
-          src={ProfileImage}
           sx={{
             height: 44,
             width: 44,
             bgcolor: 'primary.main',
+            color: 'white',
           }}
-        />
+        >
+          <IconifyIcon icon="ic:round-person" />
+        </Avatar>
       </ButtonBase>
 
       <Menu
@@ -99,13 +100,15 @@ const ProfileMenu = () => {
       >
         <Box p={1}>
           <MenuItem onClick={handleProfileMenuClose} sx={{ '&:hover': { bgcolor: 'info.dark' } }}>
-            <Avatar src={ProfileImage} sx={{ mr: 1, height: 42, width: 42 }} />
+            <Avatar sx={{ mr: 1, height: 42, width: 42, bgcolor: 'primary.main', color: 'white' }}>
+              <IconifyIcon icon="ic:round-person" />
+            </Avatar>
             <Stack direction="column">
               <Typography variant="body2" color="text.primary" fontWeight={600}>
-                Jason Statham
+                Clean Vote Admin
               </Typography>
               <Typography variant="caption" color="text.secondary" fontWeight={400}>
-                jason@example.com
+                admin@cleanvote.uz
               </Typography>
             </Stack>
           </MenuItem>
