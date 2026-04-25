@@ -24,4 +24,5 @@ dist-ssr
 *.sw?
 
 openbudget_uz_raqamlar
-openbudget.json
+!openbudget.json
+!openbudget_uz_raqamlar.json
