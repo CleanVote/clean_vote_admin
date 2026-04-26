@@ -16,4 +16,3 @@ const FilledInput: Components<Omit<Theme, 'components'>>['MuiFilledInput'] = {
 };
 
 export default FilledInput;
- 

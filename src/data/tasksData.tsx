@@ -31,4 +31,3 @@ export const tasksData: TaskProps[] = [
     checked: true,
   },
 ];
- 

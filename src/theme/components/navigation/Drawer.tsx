@@ -27,4 +27,3 @@ const Drawer: Components<Omit<Theme, 'components'>>['MuiDrawer'] = {
 };
 
 export default Drawer;
- 

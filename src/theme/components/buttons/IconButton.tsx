@@ -24,4 +24,3 @@ const IconButton: Components<Omit<Theme, 'components'>>['MuiIconButton'] = {
 };
 
 export default IconButton;
- 

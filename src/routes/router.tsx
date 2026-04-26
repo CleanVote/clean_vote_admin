@@ -74,7 +74,6 @@ export const routes = [
   },
 ];
 
-const router = createBrowserRouter(routes, { basename: '/horizon' });
+const router = createBrowserRouter(routes, { basename: '/vote' });
 
 export default router;
- 

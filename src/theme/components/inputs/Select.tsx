@@ -29,4 +29,3 @@ const Select: Components<Omit<Theme, 'components'>>['MuiSelect'] = {
 };
 
 export default Select;
- 

@@ -45,4 +45,3 @@ const DateCalendar: Components<Omit<Theme, 'components'>>['MuiDateCalendar'] = {
 };
 
 export default DateCalendar;
- 

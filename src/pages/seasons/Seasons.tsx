@@ -200,4 +200,3 @@ const Seasons = () => {
 };
 
 export default Seasons;
- 

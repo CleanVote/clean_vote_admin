@@ -12,4 +12,3 @@ const AppBar: Components<Omit<Theme, 'components'>>['MuiAppBar'] = {
 };
 
 export default AppBar;
- 

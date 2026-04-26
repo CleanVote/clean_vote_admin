@@ -45,4 +45,3 @@ export const teamMembersData: TeamMemberProps[] = [
     link: '#!',
   },
 ];
- 

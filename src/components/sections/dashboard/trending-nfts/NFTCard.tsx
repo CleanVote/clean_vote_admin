@@ -83,4 +83,3 @@ const NFTCard = ({ data }: NFTCardProps) => {
 };
 
 export default NFTCard;
- 

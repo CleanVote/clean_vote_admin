@@ -10,4 +10,3 @@ const List: Components<Omit<Theme, 'components'>>['MuiList'] = {
 };
 
 export default List;
- 

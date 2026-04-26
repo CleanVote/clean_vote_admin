@@ -1,0 +1,522 @@
+{
+  "manba": "openbudget.uz va rasmiy hujjatlar (Iqtisodiyot va Moliya vazirligi, Lex.uz, Gazeta.uz)",
+  "valyuta": "So'm (UZS)",
+  "birlik": "Trillion (trln) so'm, agar boshqacha ko'rsatilmagan bo'lsa",
+  "yangilangan": "2026-04-25",
+
+  "makroiqtisodiy_korsatkichlar": {
+    "yaim_hajmi_mln_aholi": [
+      { "yil": 2022, "aholi_soni_mln": 35.7, "jon_boshiga_yaim_usd": 2275, "yaim_osish_foiz": 5.7, "inflyatsiya_foiz": 12.3 },
+      { "yil": 2023, "aholi_soni_mln": 36.4, "jon_boshiga_yaim_usd": 2496, "yaim_osish_foiz": 6.0, "inflyatsiya_foiz": 8.8 },
+      { "yil": 2024, "aholi_soni_mln": 37.1, "jon_boshiga_yaim_usd": 2698, "yaim_osish_foiz": 6.0, "inflyatsiya_foiz": 9.0 },
+      { "yil": 2025, "aholi_soni_mln": 37.8, "jon_boshiga_yaim_usd": 2950, "yaim_osish_foiz_prognoz": 6.2, "inflyatsiya_foiz_prognoz": 8.0 },
+      { "yil": 2026, "aholi_soni_mln": 38.6, "jon_boshiga_yaim_usd": 3055, "yaim_osish_foiz_prognoz": 6.4, "inflyatsiya_foiz_prognoz": 6.0 },
+      { "yil": 2027, "aholi_soni_mln": 39.4, "jon_boshiga_yaim_usd": 3200, "yaim_osish_foiz_prognoz": 6.2, "inflyatsiya_foiz_prognoz": 6.0 }
+    ],
+    "izoh": "YAIM 2025-yilda 1 kvadrillion 630 trln so'mdan oshishi kutilmoqda"
+  },
+
+  "konsolidatsiyalashgan_budjet": {
+    "izoh": "Davlat budjeti + Davlat maqsadli jamg'armalari + budjet tashkilotlari jamg'armalari + Tiklanish va taraqqiyot jamg'armasi",
+    "yillik_korsatkichlar": [
+      {
+        "yil": 2021,
+        "daromad_trln": null,
+        "xarajat_trln": null,
+        "taqchillik_trln": null,
+        "taqchillik_yaim_foiz": null,
+        "izoh": "Ma'lumot mavjud emas"
+      },
+      {
+        "yil": 2022,
+        "daromad_trln": 286.5,
+        "xarajat_trln": 321.7,
+        "taqchillik_trln": -35.2,
+        "taqchillik_yaim_foiz": -4.0
+      },
+      {
+        "yil": 2023,
+        "daromad_trln": 321.9,
+        "xarajat_trln": 381.0,
+        "taqchillik_trln": -59.2,
+        "taqchillik_yaim_foiz": -5.5
+      },
+      {
+        "yil": 2024,
+        "daromad_trln_prognoz": 375.0,
+        "daromad_trln_kutilma": 379.4,
+        "xarajat_trln_prognoz": 427.6,
+        "xarajat_trln_kutilma": 432.1,
+        "taqchillik_trln": -52.7,
+        "taqchillik_yaim_foiz": -4.0
+      },
+      {
+        "yil": 2025,
+        "daromad_trln_prognoz": 437.8,
+        "daromad_trln_transfertsiz": 431.065,
+        "xarajat_trln_prognoz": 484.3,
+        "xarajat_trln_transfertsiz": 480.331,
+        "taqchillik_trln": -46.6,
+        "taqchillik_yaim_foiz": -3.0
+      },
+      {
+        "yil": 2026,
+        "daromad_trln_prognoz": 520.1,
+        "daromad_trln_loyiha": 515.3,
+        "xarajat_trln_prognoz": 572.3,
+        "xarajat_trln_loyiha": 566.9,
+        "taqchillik_trln": -52.2,
+        "taqchillik_yaim_foiz": -3.0
+      },
+      {
+        "yil": 2027,
+        "daromad_trln_prognoz": 587.9,
+        "xarajat_trln_prognoz": 646.2,
+        "taqchillik_trln": -58.3,
+        "taqchillik_yaim_foiz": -3.0
+      }
+    ]
+  },
+
+  "respublika_budjeti": {
+    "izoh": "Konsolidatsiyalashgan budjetning asosiy qismi — transfertlarni hisobga olgan holda",
+    "yillik_korsatkichlar": [
+      {
+        "yil": 2021,
+        "daromad_ijro_trln": 231.7,
+        "xarajat_ijro_trln": 202.97,
+        "ijro_darajasi_foiz": null,
+        "manba": "World Bank PEFA 2024"
+      },
+      {
+        "yil": 2022,
+        "daromad_ijro_trln": null,
+        "xarajat_ijro_trln": 242.0,
+        "ijro_darajasi_foiz": 104.7,
+        "manba": "World Bank PEFA 2024"
+      },
+      {
+        "yil": 2023,
+        "daromad_ijro_trln": 231.72,
+        "xarajat_ijro_trln": 314.5,
+        "ijro_darajasi_foiz": 99.4,
+        "manba": "World Bank PEFA 2024"
+      },
+      {
+        "yil": 2024,
+        "tasdiqlangan_daromad_trln": 270.4,
+        "ijro_daromad_trln": 274.42,
+        "tasdiqlangan_xarajat_trln": 312.9,
+        "ijro_xarajat_trln": 310.9,
+        "ijro_darajasi_daromad_foiz": 101.5,
+        "ijro_darajasi_xarajat_foiz": 110.7,
+        "daromad_osish_oldingi_yilga_foiz": 18.4,
+        "xarajat_osish_oldingi_yilga_foiz": 10.6,
+        "manba": "Iqtisodiyot va Moliya vazirligi"
+      },
+      {
+        "yil": 2025,
+        "tasdiqlangan_daromad_trln": 308.5,
+        "tasdiqlangan_xarajat_trln": 281.6,
+        "yakuniy_xarajat_trln": 322.87,
+        "taqchillik_trln": -36.1,
+        "taqchillik_yaim_foiz": -3.0,
+        "yarim_yillik_daromad_trln": 144.2,
+        "yarim_yillik_daromad_osish_foiz": 19.2,
+        "1chorak_daromad_trln": 63.9,
+        "1chorak_xarajat_trln": 77.4,
+        "ijro_daromad_foiz": 103.4,
+        "ijro_xarajat_foiz": 96.8,
+        "manba": "Iqtisodiyot va Moliya vazirligi, 2025 yarim yillik hisobot"
+      },
+      {
+        "yil": 2026,
+        "prognoz_daromad_trln": 368.9,
+        "prognoz_xarajat_transfertsiz_trln": 328.8,
+        "prognoz_xarajat_jami_trln": 402.4,
+        "taqchillik_trln": -59.9,
+        "taqchillik_yaim_foiz": -3.0,
+        "manba": "2026-yil uchun Davlat budjeti loyihasi"
+      }
+    ]
+  },
+
+  "daromadlar_tuzilmasi": {
+    "2024_yil_ijro": {
+      "jami_daromad_trln": 274.42,
+      "soliqlar": {
+        "bevosita_soliqlar_trln": 90.8,
+        "bilvosita_soliqlar_trln": 88.3,
+        "resurs_soliqlari_va_mol_mulk_trln": 36.4,
+        "boshqa_daromadlar_trln": 58.9,
+        "soliq_turlari": {
+          "qqs_qoshilgan_qiymat_solighi_trln": 59.28,
+          "foyda_solighi_trln": 52.6,
+          "jshds_jismoniy_shaxs_daromad_solighi_trln": 35.38,
+          "yer_qahridan_foydalanish_solighi_trln": 20.17,
+          "aksiz_solighi_trln": 19.06,
+          "bojxona_boji_trln": 10.0,
+          "yer_solighi_trln": 8.2,
+          "mol_mulk_solighi_trln": null,
+          "aylanmadan_solighi_trln": 2.8,
+          "suvdan_foydalanish_solighi_trln": 0.2,
+          "soliq_tashqari_tushumlar_jarimalar_yighimlar_trln": 3.6
+        }
+      },
+      "daromad_osish_foiz_2023_ga": 18.4
+    },
+    "2025_yil_1chorak": {
+      "jami_daromad_trln": 63.9,
+      "osish_foiz_2024_1chorakka": 21.5,
+      "soliq_turlari": {
+        "qqs_trln": 16.4,
+        "aksiz_solighi_trln": 4.8,
+        "foyda_solighi_trln": 11.8,
+        "daromad_solighi_trln": 9.3,
+        "yer_solighi_trln": 2.1,
+        "mol_mulk_solighi_trln": 2.1,
+        "suvdan_foydalanish_trln": 0.2,
+        "yer_qahridan_solighi_trln": 4.3,
+        "soliq_tashqari_tushumlar_trln": 3.6
+      }
+    },
+    "2025_yil_yarim_yillik": {
+      "jami_daromad_trln": 144.2,
+      "osish_foiz_2024_mos_davr": 19.2,
+      "ijro_rejaga_nisbatan_foiz": 103.4,
+      "daromad_tuzilmasi_foiz": {
+        "bevosita_soliqlar": 33.3,
+        "bilvosita_soliqlar": 33.1,
+        "resurs_soliqlari": 14.2,
+        "boshqa_daromadlar": 19.5
+      }
+    },
+    "2026_yil_prognoz": {
+      "jami_daromad_trln": 368.9,
+      "qqs_trln": 84.6,
+      "manba": "2026 yil Davlat budjeti loyihasi"
+    }
+  },
+
+  "xarajatlar_tuzilmasi": {
+    "2024_yil_ijro": {
+      "jami_xarajat_trln": 310.9,
+      "osish_foiz_2023_ga": 10.6,
+      "ijtimoiy_soha_ulushi_foiz": 49,
+      "ijtimoiy_soha_trln": 152.35,
+      "sohalar_boyicha": {
+        "talim_trln": 71.2,
+        "sogliqni_saqlash_trln": 36.0,
+        "madaniyat_sport_trln": 6.0,
+        "ilm_fan_trln": 2.0,
+        "nafaqalar_moddiy_yordam_trln": 15.4,
+        "pensiya_jamgharmasiga_transfer_trln": 16.3,
+        "davlat_qarzi_foiz_xarajatlari_trln": 14.5,
+        "kuch_tuzilmalari_xavfsizlik_trln": null
+      }
+    },
+    "2025_yil_tasdiqlangan_asl": {
+      "jami_xarajat_trln": 281.6,
+      "ijtimoiy_soha_trln": 170.3,
+      "ijtimoiy_soha_yaim_foiz": 11.0,
+      "subsidiyalar_jami_trln": 28.3,
+      "subsidiyalar_daromad_foiz": 8.2,
+      "sohalar_boyicha": {
+        "energetika_subsidiya_trln": 12.3,
+        "gaz_tafovut_subsidiya_trln": 7.0,
+        "qishloq_suv_xojalik_subsidiya_trln": 2.5,
+        "geologiya_qidiruv_subsidiya_trln": 0.9,
+        "nafaqalar_trln": 17.3,
+        "ilm_fan_trln": 2.3,
+        "madaniyat_trln": 3.8,
+        "sport_trln": 3.3,
+        "ish_haq_pensiya_nafaqa_indeksatsiya_zaxira_trln": 6.634,
+        "davlat_qarzi_foiz_xarajatlari_trln": 20.46,
+        "talim_kreditlari_trln": 2.8,
+        "kuch_tuzilmalari_xavfsizlik_trln": 49.99
+      }
+    },
+    "2025_yil_yakuniy_tuzatilgan": {
+      "jami_xarajat_trln": 322.87,
+      "asldan_oshiqcha_trln": 41.27,
+      "oshiqcha_foiz": 14.6,
+      "asosiy_qoshimcha_xarajatlar": {
+        "ish_haq_pensiya_nafaqa_oshirish_trln": 13.2,
+        "energiya_samaradorligi_trln": 2.66,
+        "investitsiya_loyihalar_hudud_rivojlantirish_trln": 5.8,
+        "paxta_subsidiya_trln": 3.0,
+        "mahallalar_infratuzilma_trln": 2.37,
+        "kuch_tuzilmalari_xavfsizlik_trln": 68.35,
+        "pensiya_jamgharmasi_xarajat_trln": 76.64,
+        "pensiya_jamgharmasiga_budjet_transfert_trln": 20.25,
+        "tiklanish_taraqqiyot_jamgharma_xarajat_trln": 27.9,
+        "avtomobil_yollari_jamgharmaga_trln": 7.67,
+        "ijtimoiy_himoya_jamgharmaga_trln": 2.8,
+        "iqtisodiyot_moliya_vazirligi_budjeti_trln": 113.7,
+        "maktabgacha_maktab_talim_vazirligi_trln": 59.62,
+        "qurilish_uy_joy_kommunal_vazirligi_trln": 2.85,
+        "energetika_vazirligi_trln": 0.352,
+        "vazirlar_mahkamasi_zaxira_trln": 1.9
+      }
+    },
+    "2025_yil_yarim_yillik_ijro": {
+      "jami_xarajat_trln": 144.8,
+      "ijtimoiy_xarajat_trln": 86.2,
+      "ijtimoiy_xarajat_ulushi_foiz": 49.8,
+      "ijtimoiy_xarajat_osish_2024_trln": 12.1,
+      "qqs_qaytarish_tadbirkorlarga_trln": 12.1
+    },
+    "2026_yil_prognoz": {
+      "jami_xarajat_trln": 402.4,
+      "transfertsiz_xarajat_trln": 328.8,
+      "subsidiyalar_jami_trln": 28.3,
+      "subsidiyalar_xarajat_foiz": 7.0,
+      "manba": "2026 yil Davlat budjeti loyihasi"
+    }
+  },
+
+  "davlat_maqsadli_jamgharmalar": {
+    "2024_yil_prognoz": {
+      "daromad_trln": 55.4,
+      "xarajat_trln": 86.8,
+      "respublika_budjetdan_transfer_trln": 33.1
+    },
+    "2025_yil_prognoz": {
+      "pensiya_jamgharmasi_daromad_trln": 58.9,
+      "pensiya_jamgharmasi_xarajat_trln": 74.9,
+      "pensiya_jamgharmasi_yakuniy_xarajat_trln": 76.64,
+      "davlat_budjetdan_transfer_trln": 18.5,
+      "yakuniy_transfer_trln": 20.25,
+      "tiklanish_taraqqiyot_jamgharmasi_daromad_trln": 22.2,
+      "tiklanish_taraqqiyot_jamgharmasi_xarajat_trln": 27.9,
+      "umumiy_dmj_transfer_respublika_budjetdan_trln": 54.4
+    },
+    "2026_yil_prognoz": {
+      "daromad_trln": 78.2,
+      "xarajat_trln": 147.5,
+      "respublika_budjetdan_transfer_trln": 73.6,
+      "pensiya_jamgharmasi_daromad_trln": 64.7,
+      "pensiya_jamgharmasi_xarajat_trln": 86.1,
+      "pensiya_jamgharmasi_transfer_trln": 23.0
+    }
+  },
+
+  "davlat_qarzi": {
+    "2024_yil_1_oktabr_mlrd_usd": 43.97,
+    "2024_yil_boshidan_oshish_mlrd_usd": 3.75,
+    "yaim_foiz_chegara_orta_muddat": 50,
+    "yaim_foiz_chegara_uzoq_muddat": 60,
+    "qimmatli_qogozlar": {
+      "2024_sof_hajm_chegara_trln": 25.0,
+      "2023_sof_hajm_chegara_trln": 17.0,
+      "2026_sof_hajm_chegara_trln": 30.0
+    },
+    "tashqi_qarz": {
+      "2024_yillik_chegara_mlrd_usd": 5.0,
+      "2025_yillik_chegara_mlrd_usd": 5.0,
+      "2026_yillik_chegara_mlrd_usd": 5.0,
+      "budjet_qollash_ulushi_mlrd_usd": 2.5,
+      "investitsiya_loyihalari_ulushi_mlrd_usd": 2.5
+    }
+  },
+
+  "tashabbusli_budjet": {
+    "mablag_ajratish": {
+      "2024_mavsum1_trln": 3.0,
+      "2024_mavsum2_trln": 2.0,
+      "2025_yillik_max_loyiha_qiymati_mlrd": 1.36,
+      "loyiha_max_qiymati_inshaat_bhm_koeff": 4000,
+      "loyiha_max_qiymati_jihozlash_bhm_koeff": 2000
+    },
+    "gholib_uchun_minimum_ovoz": 50,
+    "sheriklik_moliyalashtirish": {
+      "aholi_ulushi_foiz": 50,
+      "davlat_ulushi_foiz": 50,
+      "top100_mahalla_aholi_ulushi_foiz": 25,
+      "top100_mahalla_davlat_ulushi_foiz": 75
+    }
+  },
+
+  "mening_maktabim_loyihasi_2024_2025": {
+    "jami_maktablar": 612,
+    "jami_oqituvchilar_ming": null,
+    "ishtirok_etgan_oquvchilar_ming": 159,
+    "ovoz_bergan_oquvchilar_ming": 47,
+    "ishtirok_foiz": 30,
+    "jami_ovozlar": 47397,
+    "yuborilgan_loyihalar": 19545,
+    "ovoz_berishga_kiritilgan_loyihalar": 19219,
+    "gholib_loyihalar": 1387,
+    "ajratilgan_mablag_mlrd_sum": 25700,
+    "ajratilgan_mablag_trln": 25.7,
+    "maktab_boshiga_ortacha_ovoz": 34,
+    "maktab_boshiga_ortacha_loyiha": 76,
+    "eng_kop_ovoz_toplan": 510,
+    "tumanlar_statistikasi": [
+      { "tuman": "Shaykhontokhur", "maktab": 35, "ovoz": 3382 },
+      { "tuman": "Kegayli", "maktab": 39, "ovoz": 3693 },
+      { "tuman": "Yangiarik", "maktab": 39, "ovoz": 3778 },
+      { "tuman": "Vobkent", "maktab": 42, "ovoz": 5383 },
+      { "tuman": "Tomdi", "maktab": 17, "ovoz": 530 },
+      { "tuman": "Bandikhon", "maktab": 43, "ovoz": 2198 },
+      { "tuman": "Kushrabod", "maktab": 88, "ovoz": 5492 },
+      { "tuman": "Sardoba", "maktab": 20, "ovoz": 1083 },
+      { "tuman": "Sukh", "maktab": 33, "ovoz": 1439 },
+      { "tuman": "Buston", "maktab": 27, "ovoz": null },
+      { "tuman": "Mingbulok", "maktab": 50, "ovoz": 3382 },
+      { "tuman": "Arnasay", "maktab": 19, "ovoz": 1306 },
+      { "tuman": "Buka", "maktab": 55, "ovoz": 4056 },
+      { "tuman": "Dekhkonobod", "maktab": 105, "ovoz": 5987 }
+    ],
+    "sinflar_boyicha_ovoz": [
+      { "sinf": 5, "ovoz": 2975 },
+      { "sinf": 6, "ovoz": 2892 },
+      { "sinf": 7, "ovoz": 2851 },
+      { "sinf": 8, "ovoz": 2990 },
+      { "sinf": 9, "ovoz": 3133 },
+      { "sinf": 10, "ovoz": 2513 },
+      { "sinf": 11, "ovoz": 2191 }
+    ],
+    "gholib_loyihalar_soha_boyicha": [
+      { "soha": "Interaktiv doska", "soni": 447 },
+      { "soha": "Sinfxonani jihozlash (doska, parta, shkaf)", "soni": 120 },
+      { "soha": "Sport jihozlari", "soni": 243 },
+      { "soha": "Kutubxona uchun jihozlar va kitoblar", "soni": 67 },
+      { "soha": "Musiqa asboblari", "soni": 67 },
+      { "soha": "Kuzatuv kameralari", "soni": 122 },
+      { "soha": "Kompyuter, printer va ofis texnikasi", "soni": 120 },
+      { "soha": "Turli boshqa loyihalar", "soni": 201 }
+    ]
+  },
+
+  "vazirliklar_budjeti_2025": {
+    "izoh": "Respublika budjetidan birinchi darajali taqsimlovchilarga ajratilgan mablag'lar",
+    "vazirliklar": [
+      {
+        "nomi": "Iqtisodiyot va Moliya vazirligi",
+        "asl_budjeti_trln": 96.0,
+        "yakuniy_budjeti_trln": 113.7,
+        "oshish_trln": 17.7,
+        "oshish_foiz": 18.4,
+        "izoh": "Subsidiyalar va transfertlarning bosh taqsimlovchisi"
+      },
+      {
+        "nomi": "Maktabgacha va maktab ta'limi vazirligi",
+        "asl_budjeti_trln": 59.16,
+        "yakuniy_budjeti_trln": 59.62,
+        "oshish_trln": 0.462,
+        "oshish_foiz": 0.7
+      },
+      {
+        "nomi": "Qurilish va uy-joy kommunal xo'jaligi vazirligi",
+        "asl_budjeti_trln": 1.99,
+        "yakuniy_budjeti_trln": 2.85,
+        "oshish_trln": 0.864,
+        "oshish_foiz": 43.4
+      },
+      {
+        "nomi": "Energetika vazirligi",
+        "asl_budjeti_trln": 0.123,
+        "yakuniy_budjeti_trln": 0.352,
+        "oshish_foiz": 186.0
+      },
+      {
+        "nomi": "Kuch tuzilmalari (DXX, IIV, Mudofaa, Milliy gvardiya)",
+        "asl_budjeti_trln": 49.99,
+        "yakuniy_budjeti_trln": 68.35,
+        "oshish_trln": 18.36,
+        "oshish_foiz": 36.7
+      },
+      {
+        "nomi": "Prezident administratsiyasi",
+        "yakuniy_budjeti_trln": 2.5,
+        "izoh": "Joriy xarajatlar o'sishi hisobiga"
+      },
+      {
+        "nomi": "Vazirlar Mahkamasi zaxira jamg'armasi",
+        "asl_budjeti_trln": 1.0,
+        "yakuniy_budjeti_trln": 1.9,
+        "oshish_trln": 0.9
+      }
+    ],
+    "alohida_loyihalar": {
+      "toza_qollar_sanitariya_trln": 0.3114,
+      "bolalar_bogchasi_ovqatlantirish_trln": 0.256,
+      "sirdaryo_infratuzilma_trln": 0.9108,
+      "1000_ogir_mahalla_infratuzilma_trln": 2.37,
+      "marghilon_yangi_ozbekiston_massivi_trln": 0.2349,
+      "parkentsoy_turar_joy_trln": 0.244,
+      "soghliqni_saqlash_yangi_model_15_tuman_trln": 0.171
+    }
+  },
+
+  "qoshimcha_2025_xarajat_yonalishlari": {
+    "pensiya_nafaqa_ish_haq_oshirish_trln": 13.2,
+    "energiya_samaradorligi_trln": 2.66,
+    "investitsiya_hudud_rivojlantirish_trln": 5.8,
+    "paxta_subsidiya_fermerlar_trln": 3.0,
+    "suv_tejaydigan_texnologiya_mlrd": 308,
+    "yaylov_sughurish_mlrd": 112,
+    "maktab_bogcha_qurilish_jihozlash_mlrd": 191.7,
+    "mulkiy_zarar_qoplash_jamgharmasi_mlrd": 700,
+    "tadbirkorlik_kompaniya_ustav_kapital_mlrd": 500,
+    "ipoteka_qayta_moliyalashtirish_mlrd": 137.7,
+    "el_yurt_umidi_xorijda_talim_mlrd": 500,
+    "migratsiya_jamgharmasi_mlrd": 50,
+    "ilm_fan_innovatsiya_mlrd": 558.1
+  },
+
+  "2024_yil_xarajat_dinamikasi": {
+    "1yarim_yillik_xarajat_trln": 149.8,
+    "osish_2023_mos_davr_trln": 21.0,
+    "osish_foiz": 16.0,
+    "ijtimoiy_soha_ulushi_foiz": 49.5,
+    "ijtimoiy_nafaqa_kamayish_foiz": 22.8,
+    "soghliq_ish_haq_oshish_foiz": 1.8
+  },
+
+  "iqtisodiy_korsatkichlar_2025_yarim_yillik": {
+    "asosiy_kapital_investitsiya_trln": 273.4,
+    "investitsiya_osish_foiz": 5.5,
+    "aholi_real_daromad_osish_foiz": 9.5,
+    "tashqi_savdo_aylanma_mlrd_usd": 37.0,
+    "tashqi_savdo_osish_foiz": 16.1,
+    "qqv_tolovchi_soni_ming": 230.4,
+    "qqv_tolovchi_osish_ming": 7.7
+  },
+
+  "openbudget_fayllari": {
+    "budjetnoma_2025_pdf": {
+      "url": "https://openbudget.uz/api/v2/info/file/fc080fe0a064d596f817d266aabd5b18",
+      "nomi": "2025-yil uchun O'zbekiston Respublikasi budjetnomasi",
+      "til": "O'zbek",
+      "asosiy_korsatkichlar_trln": {
+        "2025_konsolidatsiya_daromad": 437.8,
+        "2025_konsolidatsiya_xarajat": 484.3,
+        "2025_taqchillik": -46.6,
+        "2026_konsolidatsiya_daromad": 520.1,
+        "2026_konsolidatsiya_xarajat": 572.3,
+        "2027_konsolidatsiya_daromad": 587.9,
+        "2027_konsolidatsiya_xarajat": 646.2,
+        "2025_ijtimoiy_soha_trln": 170.3,
+        "2026_ijtimoiy_soha_trln": 201.8,
+        "2027_ijtimoiy_soha_trln": 225.0
+      }
+    },
+    "senate_resolution_2025_pdf": {
+      "url": "https://openbudget.uz/api/v2/info/file/fbafe72ff81185bbffa8cd69e148a0b2",
+      "nomi": "Oliy Majlis Senati KQ-280-V-sonli Qarori (2025-yil 17-dekabr)"
+    },
+    "my_school_report_pdf": {
+      "url": "https://openbudget.uz/api/v2/info/file/f92583931d6153c8fb9b52098b0286aa",
+      "nomi": "My School loyihasi 2024-2025 yil hisoboti (inglizcha)"
+    }
+  },
+
+  "izoh_va_cheklovlar": {
+    "openbudget_texnik": "Sayt JavaScript (SPA) asosida ishlaydi, real vaqt budjet API so'rovlari bloklangan",
+    "manba_ishonchliligi": "Barcha raqamlar rasmiy hukumat hujjatlari (Iqtisodiyot va Moliya vazirligi, Lex.uz) va tekshirilgan media manbalari (Gazeta.uz, Kun.uz, Kapital.uz)dan olindi",
+    "openbudget_raqamlar_manbasi": "openbudget.uz saytidagi Budjetnoma 2025 PDF hujjatidan to'g'ridan-to'g'ri olingan",
+    "null_qiymatlar": "null qiymatlari ma'lumot topilmagan holatlarda qo'llanilgan"
+  }
+}

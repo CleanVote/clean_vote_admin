@@ -91,4 +91,3 @@ const palette: PaletteOptions = {
 };
 
 export default palette;
- 

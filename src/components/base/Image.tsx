@@ -9,4 +9,3 @@ const Image = ({ sx, ...rest }: ImageProps) => {
 };
 
 export default Image;
- 

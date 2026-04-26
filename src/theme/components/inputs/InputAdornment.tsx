@@ -24,4 +24,3 @@ const InputAdornment: Components<Omit<Theme, 'components'>>['MuiInputAdornment']
 };
 
 export default InputAdornment;
- 

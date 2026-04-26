@@ -75,4 +75,3 @@ const CollapseListItem = ({ subheader, active, items, icon }: MenuItem) => {
 };
 
 export default CollapseListItem;
- 

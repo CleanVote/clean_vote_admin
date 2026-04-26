@@ -44,4 +44,3 @@ const Sidebar = ({ mobileOpen, setMobileOpen, setIsClosing }: SidebarProps) => {
 };
 
 export default Sidebar;
- 

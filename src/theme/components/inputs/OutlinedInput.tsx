@@ -16,4 +16,3 @@ const OutlinedInput: Components<Omit<Theme, 'components'>>['MuiOutlinedInput'] =
 };
 
 export default OutlinedInput;
- 

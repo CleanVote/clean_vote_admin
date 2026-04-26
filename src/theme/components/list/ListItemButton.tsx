@@ -13,4 +13,3 @@ const ListItemButton: Components<Omit<Theme, 'components'>>['MuiListItemButton']
 };
 
 export default ListItemButton;
- 

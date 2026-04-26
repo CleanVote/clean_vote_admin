@@ -23,4 +23,3 @@ const CssBaseline: Components<Omit<Theme, 'components'>>['MuiCssBaseline'] = {
 };
 
 export default CssBaseline;
- 

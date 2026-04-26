@@ -105,4 +105,3 @@ const RevenueChart = ({ data, ...rest }: BarChartProps) => {
 };
 
 export default RevenueChart;
- 

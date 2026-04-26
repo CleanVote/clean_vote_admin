@@ -36,4 +36,3 @@ const DataGridFooter = () => {
 };
 
 export default DataGridFooter;
- 

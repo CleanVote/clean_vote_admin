@@ -16,4 +16,3 @@ const YearCalendar: Components<Omit<Theme, 'components'>>['MuiYearCalendar'] = {
 };
 
 export default YearCalendar;
- 

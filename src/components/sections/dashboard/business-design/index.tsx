@@ -104,4 +104,3 @@ const BusinessDesign = () => {
 };
 
 export default BusinessDesign;
- 

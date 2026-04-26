@@ -58,4 +58,3 @@ const typography: TypographyOptions = {
 };
 
 export default typography;
- 

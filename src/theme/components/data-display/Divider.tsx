@@ -27,4 +27,3 @@ const Divider: Components<Omit<Theme, 'components'>>['MuiDivider'] = {
 };
 
 export default Divider;
- 

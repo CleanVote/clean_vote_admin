@@ -60,4 +60,3 @@ const PiChart = ({ chartRef, ...rest }: PiChartProps) => {
 };
 
 export default PiChart;
- 

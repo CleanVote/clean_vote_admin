@@ -71,4 +71,3 @@ const TotalSpent = () => {
 };
 
 export default TotalSpent;
- 

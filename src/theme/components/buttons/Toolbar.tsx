@@ -10,4 +10,3 @@ const Toolbar: Components<Omit<Theme, 'components'>>['MuiToolbar'] = {
 };
 
 export default Toolbar;
- 

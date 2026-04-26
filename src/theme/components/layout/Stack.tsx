@@ -9,4 +9,3 @@ const Stack: Components<Omit<Theme, 'components'>>['MuiStack'] = {
 };
 
 export default Stack;
- 

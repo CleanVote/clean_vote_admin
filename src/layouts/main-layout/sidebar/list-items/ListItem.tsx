@@ -50,4 +50,3 @@ const ListItem = ({ subheader, icon, path }: MenuItem) => {
 };
 
 export default ListItem;
- 

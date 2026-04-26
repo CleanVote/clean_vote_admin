@@ -86,4 +86,3 @@ const DailyTrafficChart = ({ data, ...rest }: DailyTrafficChartProps) => {
 };
 
 export default DailyTrafficChart;
- 

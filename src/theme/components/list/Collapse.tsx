@@ -15,4 +15,3 @@ const Collapse: Components<Omit<Theme, 'components'>>['MuiCollapse'] = {
 };
 
 export default Collapse;
- 

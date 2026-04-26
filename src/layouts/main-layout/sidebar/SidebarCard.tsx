@@ -54,4 +54,3 @@ const SidebarCard = () => {
 };
 
 export default SidebarCard;
- 

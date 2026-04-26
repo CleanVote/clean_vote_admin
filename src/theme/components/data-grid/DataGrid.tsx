@@ -75,4 +75,3 @@ const DataGrid: Components<Omit<Theme, 'components'>>['MuiDataGrid'] = {
 };
 
 export default DataGrid;
- 

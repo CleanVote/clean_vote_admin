@@ -104,4 +104,3 @@ const TrendingNFTs = () => {
 };
 
 export default TrendingNFTs;
- 

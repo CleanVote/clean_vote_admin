@@ -29,4 +29,3 @@ const useResizeObserver = (ref: RefObject<HTMLElement>) => {
 };
 
 export default useResizeObserver;
- 

@@ -15,4 +15,3 @@ const MenuItem: Components<Omit<Theme, 'components'>>['MuiMenuItem'] = {
 };
 
 export default MenuItem;
- 
